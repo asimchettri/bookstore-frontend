@@ -1,9 +1,35 @@
-# React + Vite
+# 📚 Book Marketplace – Full-Stack Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured book marketplace platform built using the **MERN stack** with **Firebase Authentication** for secure user access. This application enables users to buy and sell books, manage listings, and control orders through a role-based dashboard.
 
-Currently, two official plugins are available:
+---
+url:https://bookstore-frontend-black.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# book-app-frontend
+## 🌟 Key Features
+
+- 🔐 **Firebase Authentication** with role-based access control (admin/user)
+- 📦 **Book Listing & Orders** with real-time CRUD capabilities
+- 🛒 **Buy & Sell Books** through a streamlined interface
+- 📊 **Admin Dashboard** to view sales data, manage inventory & users
+- 🧾 Seamless integration between frontend and backend APIs
+
+---
+
+## 🚀 Tech Stack
+
+| Category      | Technology             |
+|---------------|------------------------|
+| Frontend      | React, Redux Toolkit, React Router |
+| Backend       | Node.js, Express.js, MongoDB |
+| Authentication| Firebase Auth          |
+| Database      | MongoDB Atlas          |
+| Hosting (optional) | Vercel / Netlify (frontend), Render / Railway (backend) |
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/asimchettri/book-marketplace.git
+   cd book-marketplace
